@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   { time: 11, text: "Ra-ra-ra, ra-ra, ra-ra-ra-ra" },
 
   { time: 19.21, text: "Tumhara mera milna likha toh hoga kaheen" },
-  { time: 28.27, text: "Naseebon ka sitaara mila toh hoga kaheen" },
+  { time: 25.27, text: "Naseebon ka sitaara mila toh hoga kaheen" },
 
   { time: 31.77, text: "Na jaane kyun, ae humnasheen" },
   { time: 35.00, text: "Hai mere dil ko yeh yaqeen" },
