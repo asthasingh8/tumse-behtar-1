@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumse Behtar | A Cinematic Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="spinner"></div>
+        <p>Loading Assets...</p>
+    </div>
+
+    <div id="enter-screen">
+        <button id="enter-button">Click to Enter</button>
+    </div>
+
+    <div id="main-container" class="hidden">
+        <div class="background-overlay"></div>
+        <div class="vignette"></div>
+        <canvas id="particle-canvas"></canvas>
+
+        <header>
+            <div id="equalizer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <main>
+            <div id="lyrics-container">
+                <p class="lyric-line"></p>
+            </div>
+        </main>
+
+        <footer>
+            <div id="controls">
+                <button id="play-pause-btn" class="play"></button>
+            </div>
+            <div class="song-title">
+                <h1>Tumse Behtar</h1>
+                <p>From "Sunny Sanskari Ki Tulsi Kumari"</p>
+            </div>
+        </footer>
+    </div>
+
+    <div id="cursor-glow"></div>
+    <audio id="song" src="assets/audio.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
